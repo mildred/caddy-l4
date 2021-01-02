@@ -49,12 +49,12 @@ Like the `http` app, some handlers are "terminal" meaning that they don't call t
 The recommended way is to use [xcaddy](https://github.com/caddyserver/xcaddy):
 
 ```
-$ xcaddy build --with github.com/mholt/caddy-l4
+$ xcaddy build --with github.com/mildred/caddy-l4
 ```
 
 Alternatively, to hack on the plugin code, you can clone it down, then build and run like so:
 
-1. Download or clone this repo: `git clone https://github.com/mholt/caddy-l4.git`
+1. Download or clone this repo: `git clone https://github.com/mildred/caddy-l4.git`
 2. In the project folder, run `xcaddy` just like you would run `caddy`. For example: `xcaddy list-modules --versions` (you should see the `layer4` modules).
 
 

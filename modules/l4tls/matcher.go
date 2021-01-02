@@ -21,7 +21,7 @@ import (
 
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/modules/caddytls"
-	"github.com/mholt/caddy-l4/layer4"
+	"github.com/mildred/caddy-l4/layer4"
 	"go.uber.org/zap"
 )
 

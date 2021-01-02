@@ -21,7 +21,7 @@ import (
 	"time"
 
 	"github.com/caddyserver/caddy/v2"
-	"github.com/mholt/caddy-l4/layer4"
+	"github.com/mildred/caddy-l4/layer4"
 	"go.uber.org/zap"
 	"golang.org/x/time/rate"
 )

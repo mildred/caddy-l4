@@ -16,12 +16,12 @@ package caddyl4
 
 import (
 	// plugging in the standard modules for the layer4 app
-	_ "github.com/mholt/caddy-l4/layer4"
-	_ "github.com/mholt/caddy-l4/modules/l4echo"
-	_ "github.com/mholt/caddy-l4/modules/l4http"
-	_ "github.com/mholt/caddy-l4/modules/l4proxy"
-	_ "github.com/mholt/caddy-l4/modules/l4ssh"
-	_ "github.com/mholt/caddy-l4/modules/l4tee"
-	_ "github.com/mholt/caddy-l4/modules/l4throttle"
-	_ "github.com/mholt/caddy-l4/modules/l4tls"
+	_ "github.com/mildred/caddy-l4/layer4"
+	_ "github.com/mildred/caddy-l4/modules/l4echo"
+	_ "github.com/mildred/caddy-l4/modules/l4http"
+	_ "github.com/mildred/caddy-l4/modules/l4proxy"
+	_ "github.com/mildred/caddy-l4/modules/l4ssh"
+	_ "github.com/mildred/caddy-l4/modules/l4tee"
+	_ "github.com/mildred/caddy-l4/modules/l4throttle"
+	_ "github.com/mildred/caddy-l4/modules/l4tls"
 )

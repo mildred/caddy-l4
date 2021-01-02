@@ -22,7 +22,7 @@ import (
 
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/modules/caddyhttp"
-	"github.com/mholt/caddy-l4/layer4"
+	"github.com/mildred/caddy-l4/layer4"
 )
 
 func init() {
